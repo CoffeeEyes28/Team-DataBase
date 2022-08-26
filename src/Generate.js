@@ -70,7 +70,7 @@ function managerCard(manager){
    
  return `
 <div class="col">
-<div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
  <div class="card-header">Team Manager</div>
  <div class="card-body">
   <h5 class="card-title">${manager.name}</h5>
@@ -87,7 +87,7 @@ function managerCard(manager){
 
 function internCard(intern){
  return  `<div class="col">
-   <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+   <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
    <div class="card-header">Intern</div>
    <div class="card-body">
    <h5 class="card-title">${intern.name}</h5>
@@ -102,7 +102,7 @@ function internCard(intern){
 
 function engineerCard(engineer){
    return `<div class="col">
-    <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
      <div class="card-header">Engineer</div>
      <div class="card-body">
         <h5 class="card-title">${engineer.name}</h5>
