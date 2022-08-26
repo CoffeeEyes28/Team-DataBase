@@ -74,7 +74,7 @@ function managerCard(manager){
  <div class="card-header">Team Manager</div>
  <div class="card-body">
   <h5 class="card-title">${manager.name}</h5>
-    <p class="card-text">ID:${manager.id}</p>
+    <p class="card-text">ID: ${manager.id}</p>
     <p class="card-text">Email: <a href="mailto:">${manager.email}</a></p>
     <p class="card-text">Office Number: ${manager.officeNumber} </p>
     </div>
@@ -91,9 +91,9 @@ function internCard(intern){
    <div class="card-header">Intern</div>
    <div class="card-body">
    <h5 class="card-title">${intern.name}</h5>
-   <p class="card-text">ID:${intern.id}</p>
+   <p class="card-text">ID: ${intern.id}</p>
    <p class="card-text">Email: <a href="mailto:">${intern.email}</a></p>
-   <p class="card-text">School:${intern.school} </p>
+   <p class="card-text">School: ${intern.school} </p>
    </div>
    </div>
    
@@ -106,9 +106,9 @@ function engineerCard(engineer){
      <div class="card-header">Engineer</div>
      <div class="card-body">
         <h5 class="card-title">${engineer.name}</h5>
-        <p class="card-text">ID:${engineer.id}</p>
-        <p class="card-text">Email: <a href="mailto:">${engineer.email}</a></p>
-        <p class="card-text">GitHub:<a href= "https://github.com/${engineer.github}">${engineer.github}</a></p>
+        <p class="card-text">ID: ${engineer.id}</p>
+        <p class="card-text">Email: <a href="mailto:"> ${engineer.email}</a></p>
+        <p class="card-text">GitHub: <a target = 'blank' href= "https://github.com/${engineer.github}">${engineer.github}</a></p>
      </div>
     </div>
     
