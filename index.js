@@ -138,6 +138,7 @@ function writeFile(textContent, team){
 }
 
 function addEmployee(){
+    
     inquirer
     .prompt([
         {
