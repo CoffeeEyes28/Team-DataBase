@@ -60,6 +60,7 @@ To test the programs funtionality please run the following command:
 # Usage
 The following video will demonstrate the programs functionality: 
 
+[TeamdatabaseWalkthrough.webm](https://user-images.githubusercontent.com/106839365/187513581-c924fc6d-0ebd-4a03-9f8b-d24012f15192.webm)
 
 
 
