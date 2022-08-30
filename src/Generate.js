@@ -1,4 +1,4 @@
-
+// Generates core HTML
 function generate(team){
     return `<!DOCTYPE html>
     <html lang="en">
@@ -40,7 +40,7 @@ function generate(team){
 }
 
 
-
+// Generates cards that display team's basic info 
 function generateTeam(team){
     const cards = [];
 
@@ -72,6 +72,7 @@ const teamCards = cards.join('')
 return teamCards;
 }
 
+// Generates card that displays manager's basic info
 function managerCard(manager){
    
  return `
@@ -91,6 +92,7 @@ function managerCard(manager){
 
 }
 
+// Generates card that displays intern's basic info
 function internCard(intern){
  return  `<div class="col-3">
    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
@@ -106,6 +108,7 @@ function internCard(intern){
    </div>`
 }
 
+// Generates card that displays engineer's basic info
 function engineerCard(engineer){
    return `<div class="col-3">
     <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">

@@ -12,8 +12,11 @@ const Engineer = require('./lib/Engineer')
 const Intern = require('./lib/Intern')
 
 
+// Empty array used to hold newly created team memebers
 const team = [];
 
+
+// Runs the program once npm start is entered 
 function init(){
  console.log(
    `
@@ -33,6 +36,7 @@ createManager();
 }
 
 
+// creates a new Manager 
 function createManager() {
     inquirer
  .prompt([
@@ -69,7 +73,7 @@ function createManager() {
 
 
 
-
+// creates a new Engineer
 function createEngineer(){
     inquirer
     .prompt([
@@ -101,7 +105,7 @@ function createEngineer(){
         })
 }
 
-
+// creates a new Intern
 function createIntern(){
     inquirer
     .prompt([
@@ -133,10 +137,14 @@ function createIntern(){
     })
 }
 
+
+// Writes team data to index.html file
 function writeFile(textContent, team){
     fs.writeFileSync('./dist/index.html', textContent)
 }
 
+
+// a menu to choose which role would like to be added to the team next or to send data once team is built
 function addEmployee(){
     
     inquirer
